@@ -1,0 +1,23 @@
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <a href="#" class="navbar-brand">
+        Dodo
+      </a>
+    </div>
+
+    <div id="navbar" class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li class="<%= 'active' if current_page?(controller: 'welcome', action: 'index') %>">
+          <a href="#">Welcome</a>
+        </li>
+        <li>
+          <a href="#">Extinctions<small> (coming soon!)</small></a>
+        </li>
+        <li>
+          <a href="#">Endangered<small> (coming soon!)</small></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
