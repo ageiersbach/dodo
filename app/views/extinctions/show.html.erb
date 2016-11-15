@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Animal name:</strong>
+  <%= @extinction.animal_name %>
+</p>
+
+<p>
+  <strong>Approx extinction at:</strong>
+  <%= @extinction.approx_extinction_at %>
+</p>
+
+<%= link_to 'Edit', edit_extinction_path(@extinction) %> |
+<%= link_to 'Back', extinctions_path %>

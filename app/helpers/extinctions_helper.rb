@@ -1,0 +1,2 @@
+module ExtinctionsHelper
+end
