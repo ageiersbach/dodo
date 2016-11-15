@@ -10,3 +10,9 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+
+# Ignore node_modules
+/node_modules/*
+
+# Ignore bower_components
+/vendor/assets/bower_components/*
