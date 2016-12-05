@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @endangered_specy.name %>
+</p>
+
+<p>
+  <strong>Candidate:</strong>
+  <%= @endangered_specy.candidate %>
+</p>
+
+<p>
+  <strong>Priority:</strong>
+  <%= @endangered_specy.priority %>
+</p>
+
+<%= link_to 'Edit', edit_endangered_specy_path(@endangered_specy) %> |
+<%= link_to 'Back', endangered_species_path %>

@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  resources :endangered_species
   resources :extinctions
   root 'welcome#index'
 
