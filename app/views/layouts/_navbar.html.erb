@@ -1,15 +1,13 @@
 <nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container">
     <div class="navbar-header">
-      <a href="#" class="navbar-brand">
-        Dodo
-      </a>
+      <%= link_to "Dodo", root_path, { class: "navbar-brand" } %>
     </div>
 
     <div id="navbar" class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
         <li class="<%= 'active' if current_page?(controller: 'welcome', action: 'index') %>">
-          <a href="#">Welcome</a>
+          <%= link_to "Welcome", root_path %>
         </li>
         <li>
           <%= link_to "Extinctions", extinctions_path %>
